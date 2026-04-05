@@ -17,7 +17,7 @@ const DashboardSidebar = () => {
         { path: '/dashboard/my-events', label: 'My Events', icon: Trophy, exact: false },
         { path: '/dashboard/events', label: 'Explore Events', icon: Calendar, exact: false },
         { path: '#static-profile', label: 'My Profile', icon: User, exact: false },
-        { path: '/settings', label: 'Settings', icon: Settings, exact: false },
+        { path: '/dashboard/settings', label: 'Settings', icon: Settings, exact: false },
     ];
 
     const verifierMenuItems = [

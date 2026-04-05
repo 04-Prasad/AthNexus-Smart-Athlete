@@ -160,6 +160,7 @@ function MainContent() {
         <Route path="analytics" element={<Analytics />} />
         <Route path="create-event" element={<CreateEventPageAthlete />} />
         <Route path="events/:id" element={<EventDetailPage />} />
+        <Route path="settings" element={<SettingsPage />} />
       </Route>
 
       {/* VERIFIER ROUTES */}
